@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background: rgb(38, 142, 202);
+}
+.navbar #spn {
+    display: inline-block;
+    height: 50px;
+    width: 40px;
+}
+.navbar img {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 14px;
+    background: white;
+}
+.navbar ul {
+    margin-left: 952px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;   
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    font-size: 17px;
+    font-weight: bold;
+       
+}
+.navbar ul li:hover {
+    font-style: italic;
+    font-size: 19px;
+    background: rgba(245, 222, 179, 0.377);
+    color: turquoise;
+}
+.cnt{
+    background: #f1f197;
+    height: 400px;
+    padding-top: 15px;
+}
+.content h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 10px 0px;
+}
+.content h3 {
+    font-size: 2.0rem;
+    margin: 7px 10px;
+}
+.content p {
+    margin: 30px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.frm h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 10px 0px;
+}
+.frm {
+    height: 400px;
+    padding-top: 15px;
+    background: #cfcfcffa;
+}
+.form {
+    margin: 20px 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    color: white;
+    background: rgb(38, 142, 202);
+    padding-left: 10px;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1130px;
+}
+footer a:hover {
+    background: wheat;
+    color: black;
+}
